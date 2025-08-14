@@ -1,50 +1,21 @@
 # Douyin Scraper
 
-A simple JavaScript tool to extract post links from Douyin (TikTok China) pages.
-
-## Features
-
-- Automatically scrolls through the page to load more posts
-- Extracts all unique post links containing `/note/`
-- Copies extracted links to clipboard
-- Console logging for monitoring progress
+Extracts Douyin post links and copies them to clipboard.
 
 ## Usage
 
-1. Navigate to a Douyin user profile or feed page in your browser
-2. Open the browser's Developer Console (F12 → Console tab)
-3. Copy and paste the contents of `app.js` into the console
-4. Press Enter to execute
+1. Open Douyin profile/feed page
+2. Open Developer Console (F12)
+3. Paste `app.js` content and press Enter wait for 10 sec
+4. Script auto-scrolls for 10 seconds, extracts links, copies to clipboard
 
-The script will:
-- Auto-scroll for 10 seconds to load posts
-- Extract all post links
-- Display the count and links in console
-- Copy all links to your clipboard
+## Download Videos
 
-## Configuration
+1. Go to [dlpanda.com](https://dlpanda.com/)
+2. Paste links one by one
+3. Download each video
 
-You can modify these settings in the script:
+## Config
 
-- **Scroll duration**: Change `10000` (10 seconds) to adjust loading time
-- **Scroll interval**: Change `1000` (1 second) to adjust scroll speed
-- **Link pattern**: Modify the selector `a[href*="/note/"]` for different link types
-
-## Output
-
-The script outputs:
-- Console log showing number of links found
-- Individual links printed to console
-- All links copied to clipboard (newline-separated)
-
-## Requirements
-
-- Modern web browser with JavaScript enabled
-- Access to Douyin website
-- Developer Console access
-
-## Notes
-
-- Adjust the scroll duration based on your internet speed and page size
-- The script filters out duplicate links automatically
-- Works best on profile pages with multiple posts
+- Scroll time: Change `10000` (10 seconds)
+- Scroll speed: Change `1000` (1 second)
