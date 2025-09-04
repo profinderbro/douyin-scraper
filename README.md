@@ -2,7 +2,7 @@
 
 Extracts Douyin post links and copies them to clipboard.
 
-## Usage
+## Methode 01 [Using Browser Only]
 
 1. Open Douyin profile/feed page
 2. Open Developer option _(press F12)_ then `Console` tab, in Console type:
@@ -53,7 +53,14 @@ allow pasting
 2. Paste links one by one
 3. Download each video
 
-## Config
+## Methode 02 Using Python-Colab ([Try Now](https://colab.research.google.com/github/profinderbro/douyin-scraper/blob/main/scraper.ipynb))
 
-- Scroll time: Change `10000` (10 seconds)
-- Scroll speed: Change `1000` (1 second)
+1. Open the douyin profile in browser, press F12 to open inspect then so to the network tab shown at top 
+
+<img width="1395" height="589" alt="image" src="https://github.com/user-attachments/assets/89238cc2-d718-47f6-8825-c2e0f0055b6e" />
+
+2. open url :
+```
+https://colab.research.google.com/github/profinderbro/douyin-scraper/blob/main/scraper.ipynb
+```
+3. create a new file named `urls.txt` and paste all urls from the network tab of browers's inspect mode _(Press F12 to Open)_
