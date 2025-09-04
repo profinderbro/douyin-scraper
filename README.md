@@ -65,7 +65,7 @@ allow pasting
 
 3. Now right-click the file that comes in the network tab and select `Copy all URLs` (not `Copy URL`) as we want all at once
 
-4. Now open Colab *(Google's Python Notebook Free)*, just paste this link into the browser URL box:
+4. Now open Colab *(Google's Python Notebook Free)*, to open just paste this link into the browser URL box:
 
 ```
 https://colab.research.google.com/github/profinderbro/douyin-scraper/blob/main/scraper.ipynb
@@ -73,5 +73,5 @@ https://colab.research.google.com/github/profinderbro/douyin-scraper/blob/main/s
 
 <img width="638" height="428" alt="image" src="https://github.com/user-attachments/assets/1b880408-3ad6-4944-a16f-9a55f74eed1f" />
 
-5. Create a new file named `urls.txt` and paste all URLs from the network tab (`Copy all URLs`) of browser's Inspect mode
+5. Create a new file named `urls.txt` and paste all URLs that you copied from the network tab (`Copy all URLs`)
 6. Hit the play button
