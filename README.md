@@ -5,8 +5,11 @@ Extracts Douyin post links and copies them to clipboard.
 ## Usage
 
 1. Open Douyin profile/feed page
-2. Open Developer Console (F12)
-3. Paste `app.js` content and press Enter wait for 10 sec
+2. Open Developer option _(press F12)_ then `Console` tab, in Console type:
+```
+allow pasting
+```
+3. Paste `app.js` or the below code and press Enter wait for 10 sec 
 
 ```
 (function() {
