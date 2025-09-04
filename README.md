@@ -1,4 +1,4 @@
-# Douyin Scraper
+# Douyin Scraper ([Try Now](https://colab.research.google.com/github/profinderbro/douyin-scraper/blob/main/scraper.ipynb))
 
 Extracts Douyin post links and copies them to clipboard.
 
