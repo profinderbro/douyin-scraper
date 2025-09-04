@@ -6,21 +6,24 @@ Extracts Douyin post links and copies them to clipboard.
 
 1. Open the Douyin profile in browser, press `F12` to open Inspect, then go to the Network tab shown at top and select `img` filter for images only and `media` for videos only
 
+`after you press F12 :` 
 <img width="1152" height="605" alt="image" src="https://github.com/user-attachments/assets/a7708104-bf43-4078-849b-1aab50bf984e" />
 
-2. Then hover and the cursor fastly over all the posts *(no need to open, just hover fastly; the network tab will catch that automatically)*
+2. Then hover the cursor fastly over all the posts *(no need to open, just hover fastly; the network tab will catch that automatically)*
 
-3. Now right-click the file that comes in the network tab and select `Copy all URLs` (not `Copy URL`) as we want all at once
+3. Now right-click any file that comes in the network tab and select `Copy all URLs` (not `Copy URL`) as we want all at once
 
 4. Now open Colab *(Google's Python Notebook Free)*, to open just paste this link into the browser URL box:
 
 ```
 https://colab.research.google.com/github/profinderbro/douyin-scraper/blob/main/scraper.ipynb
 ```
+5. Create a new file named `urls.txt` and paste all URLs that you copied from the network tab (`Copy all URLs`)
+
+`Google Colab:`
 
 <img width="638" height="428" alt="image" src="https://github.com/user-attachments/assets/1b880408-3ad6-4944-a16f-9a55f74eed1f" />
 
-5. Create a new file named `urls.txt` and paste all URLs that you copied from the network tab (`Copy all URLs`)
 6. Hit the play button
 
 
