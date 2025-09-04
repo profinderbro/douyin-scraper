@@ -1,4 +1,4 @@
-# Douyin Scraper ([Try Now](https://colab.research.google.com/github/profinderbro/douyin-scraper/blob/main/scraper.ipynb))
+# Douyin Scraper
 
 Extracts Douyin post links and copies them to clipboard.
 
@@ -9,7 +9,7 @@ Extracts Douyin post links and copies them to clipboard.
 ```
 allow pasting
 ```
-3. Paste `app.js` or the below code and press Enter wait for 10 sec 
+3. Paste the below code and press Enter wait for 10 sec 
 
 ```
 (function() {
@@ -55,12 +55,19 @@ allow pasting
 
 ## Methode 02 Using Python-Colab ([Try Now](https://colab.research.google.com/github/profinderbro/douyin-scraper/blob/main/scraper.ipynb))
 
-1. Open the douyin profile in browser, press F12 to open inspect then so to the network tab shown at top 
+1. Open the douyin profile in browser, press `F12` to open inspect then so to the network tab shown at top  and select `img` filter for images only and `media` for videos only
 
-<img width="1395" height="589" alt="image" src="https://github.com/user-attachments/assets/89238cc2-d718-47f6-8825-c2e0f0055b6e" />
+<img width="1152" height="605" alt="image" src="https://github.com/user-attachments/assets/a7708104-bf43-4078-849b-1aab50bf984e" />
 
-2. open url :
+2. Then hover and the cursore fasty to all the posts _(no need to open just hover fastly the network tab will cath that automatically)_
+3. Now right the the file come in the netwok tab and right click on any and select `copy all urls` not `copy url`  as we want all at once
+
+4. Now open Colab _(Google's Python NoteBook Free)_ , just paste this link to the broswer url box:
 ```
 https://colab.research.google.com/github/profinderbro/douyin-scraper/blob/main/scraper.ipynb
 ```
-3. create a new file named `urls.txt` and paste all urls from the network tab of browers's inspect mode _(Press F12 to Open)_
+
+<img width="638" height="428" alt="image" src="https://github.com/user-attachments/assets/1b880408-3ad6-4944-a16f-9a55f74eed1f" />
+
+5. create a new file named `urls.txt` and paste all urls from the network tab (`copy all urls`) of browers's inspect mode
+6. Hit the play button 
