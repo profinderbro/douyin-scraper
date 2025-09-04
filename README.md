@@ -2,7 +2,29 @@
 
 Extracts Douyin post links and copies them to clipboard.
 
-## Method 01 \[Using Browser Only]
+## Method 01: Using Python-Colab ([Try Now](https://colab.research.google.com/github/profinderbro/douyin-scraper/blob/main/scraper.ipynb))
+
+1. Open the Douyin profile in browser, press `F12` to open Inspect, then go to the Network tab shown at top and select `img` filter for images only and `media` for videos only
+
+<img width="1152" height="605" alt="image" src="https://github.com/user-attachments/assets/a7708104-bf43-4078-849b-1aab50bf984e" />
+
+2. Then hover and the cursor fastly over all the posts *(no need to open, just hover fastly; the network tab will catch that automatically)*
+
+3. Now right-click the file that comes in the network tab and select `Copy all URLs` (not `Copy URL`) as we want all at once
+
+4. Now open Colab *(Google's Python Notebook Free)*, to open just paste this link into the browser URL box:
+
+```
+https://colab.research.google.com/github/profinderbro/douyin-scraper/blob/main/scraper.ipynb
+```
+
+<img width="638" height="428" alt="image" src="https://github.com/user-attachments/assets/1b880408-3ad6-4944-a16f-9a55f74eed1f" />
+
+5. Create a new file named `urls.txt` and paste all URLs that you copied from the network tab (`Copy all URLs`)
+6. Hit the play button
+
+
+## Method 02: Using Browser Only
 
 1. Open Douyin profile/feed page
 2. Open Developer option *(press F12)* then `Console` tab, in Console type:
@@ -55,23 +77,3 @@ allow pasting
 2. Paste links one by one
 3. Download each video
 
-## Method 02 Using Python-Colab ([Try Now](https://colab.research.google.com/github/profinderbro/douyin-scraper/blob/main/scraper.ipynb))
-
-1. Open the Douyin profile in browser, press `F12` to open Inspect, then go to the Network tab shown at top and select `img` filter for images only and `media` for videos only
-
-<img width="1152" height="605" alt="image" src="https://github.com/user-attachments/assets/a7708104-bf43-4078-849b-1aab50bf984e" />
-
-2. Then hover and the cursor fastly over all the posts *(no need to open, just hover fastly; the network tab will catch that automatically)*
-
-3. Now right-click the file that comes in the network tab and select `Copy all URLs` (not `Copy URL`) as we want all at once
-
-4. Now open Colab *(Google's Python Notebook Free)*, to open just paste this link into the browser URL box:
-
-```
-https://colab.research.google.com/github/profinderbro/douyin-scraper/blob/main/scraper.ipynb
-```
-
-<img width="638" height="428" alt="image" src="https://github.com/user-attachments/assets/1b880408-3ad6-4944-a16f-9a55f74eed1f" />
-
-5. Create a new file named `urls.txt` and paste all URLs that you copied from the network tab (`Copy all URLs`)
-6. Hit the play button
