@@ -2,14 +2,16 @@
 
 Extracts Douyin post links and copies them to clipboard.
 
-## Methode 01 [Using Browser Only]
+## Method 01 \[Using Browser Only]
 
 1. Open Douyin profile/feed page
-2. Open Developer option _(press F12)_ then `Console` tab, in Console type:
+2. Open Developer option *(press F12)* then `Console` tab, in Console type:
+
 ```
 allow pasting
 ```
-3. Paste the below code and press Enter wait for 10 sec 
+
+3. Paste the below code and press Enter, wait for 10 sec
 
 ```
 (function() {
@@ -53,21 +55,23 @@ allow pasting
 2. Paste links one by one
 3. Download each video
 
-## Methode 02 Using Python-Colab ([Try Now](https://colab.research.google.com/github/profinderbro/douyin-scraper/blob/main/scraper.ipynb))
+## Method 02 Using Python-Colab ([Try Now](https://colab.research.google.com/github/profinderbro/douyin-scraper/blob/main/scraper.ipynb))
 
-1. Open the douyin profile in browser, press `F12` to open inspect then so to the network tab shown at top  and select `img` filter for images only and `media` for videos only
+1. Open the Douyin profile in browser, press `F12` to open Inspect, then go to the Network tab shown at top and select `img` filter for images only and `media` for videos only
 
 <img width="1152" height="605" alt="image" src="https://github.com/user-attachments/assets/a7708104-bf43-4078-849b-1aab50bf984e" />
 
-2. Then hover and the cursore fasty to all the posts _(no need to open just hover fastly the network tab will cath that automatically)_
-3. Now right the the file come in the netwok tab and right click on any and select `copy all urls` not `copy url`  as we want all at once
+2. Then hover and the cursor fastly over all the posts *(no need to open, just hover fastly; the network tab will catch that automatically)*
 
-4. Now open Colab _(Google's Python NoteBook Free)_ , just paste this link to the broswer url box:
+3. Now right-click the file that comes in the network tab and select `Copy all URLs` (not `Copy URL`) as we want all at once
+
+4. Now open Colab *(Google's Python Notebook Free)*, just paste this link into the browser URL box:
+
 ```
 https://colab.research.google.com/github/profinderbro/douyin-scraper/blob/main/scraper.ipynb
 ```
 
 <img width="638" height="428" alt="image" src="https://github.com/user-attachments/assets/1b880408-3ad6-4944-a16f-9a55f74eed1f" />
 
-5. create a new file named `urls.txt` and paste all urls from the network tab (`copy all urls`) of browers's inspect mode
-6. Hit the play button 
+5. Create a new file named `urls.txt` and paste all URLs from the network tab (`Copy all URLs`) of browser's Inspect mode
+6. Hit the play button
