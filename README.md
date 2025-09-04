@@ -1,6 +1,4 @@
-
-
-# Enhanced Douyin Scraper Guide
+# Douyin Scraper
 
 Extracts Douyin post links and copies them to clipboard with improved user experience.
 
@@ -169,18 +167,6 @@ If you have many videos to download, consider these alternatives:
 
 ---
 
-## Comparison of Methods
-
-| Feature | Method 01 (Python-Colab) | Method 02 (Browser Only) |
-|---------|--------------------------|--------------------------|
-| Ease of use | Moderate (requires Colab) | Easy (browser only) |
-| URL quality | Direct media URLs | Post page URLs |
-| Setup required | Yes (Colab environment) | No |
-| Best for | High-quality media extraction | Quick link extraction |
-| Technical knowledge | Basic | Minimal |
-
----
-
 ## FAQ
 
 **Q: Is this tool safe to use?**  
@@ -197,12 +183,3 @@ A: While the scripts automate parts of the process, completely automated scrapin
 
 **Q: How often should I use these tools?**  
 A: Use responsibly and avoid excessive requests that might get your IP address temporarily blocked.
-
----
-
-## Important Notes
-
-- Respect content creators' rights and intellectual property
-- Only download content for personal use or where you have permission
-- Be aware that website structures may change, requiring updates to these methods
-- These tools are provided for educational purposes; use responsibly and in accordance with Douyin's terms of service
